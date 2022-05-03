@@ -8,6 +8,7 @@ const Register = () => {
 
     const navegate = useNavigate()
 
+    
     const {registerUser} = useContext(UserContext);
 
     const handleSubmit = async(e) =>{
